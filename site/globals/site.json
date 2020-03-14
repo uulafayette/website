@@ -1,6 +1,6 @@
 {
-    "name": "Skeleventy",
-    "url": "https://skeleventy.netlify.com",
+    "name": "Unitarian Universalist Fellowship of Lafayette",
+    "url": "https://uulala.org",
     "author": {
         "name": "Max Power",
         "email": "hello@maxpower.com",
@@ -20,15 +20,15 @@
         "instagram": "https://www.instagram.com"
     },
     "address": {
-        "street": "123 Fake Street",
-        "street_2": "Fake Road",
-        "city": "London",
-        "postcode": "LN1 234",
-        "country": "GB"
+        "street": "1119 Johnston Street",
+        "street_2": "Suite 12",
+        "city": "Lafayette",
+        "state": "LA",
+        "postcode": "70501",
+        "country": "US"
     },
     "contact": {
-        "phone": "123 456 789",
-        "mobile": "(+44) 1234 5678",
-        "email": "hello@maxpower.com"
+        "phone": "337-235-9466",
+        "email": "contact@uulala.org"
     }
 }

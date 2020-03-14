@@ -14,5 +14,14 @@
 
 // 'container' helper class
 .inner {
-    @apply w-full max-w-6xl ml-auto mr-auto px-6;
+    @apply w-full max-w-screen-xl ml-auto mr-auto px-6;
+}
+
+.iframe-container {
+    @apply overflow-hidden relative;
+    padding-top: 75%;
+
+    iframe {
+        @apply absolute left-0 top-0 h-full w-full border-0;
+    }
 }

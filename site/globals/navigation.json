@@ -5,16 +5,34 @@
             "url": "/"
         },
         {
-            "label": "About",
+            "label": "About Us",
             "url": "/about/"
+        },
+        {
+            "label": "Events",
+            "url": "/events/"
+        },
+        {
+            "label": "Contact Us",
+            "url": "/contact/"
         },
         {
             "label": "Blog",
             "url": "/blog/"
+        }
+    ],
+    "top": [
+        {
+            "label": "Donate",
+            "url": "/donate/"
         },
         {
-            "label": "Contact",
-            "url": "/contact/"
+            "label": "Roster",
+            "url": "/roster/"
+        },
+        {
+            "label": "Member Login",
+            "url": "/member-login/"
         }
     ]
 }

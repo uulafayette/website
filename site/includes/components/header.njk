@@ -1,6 +1,15 @@
-<header id="header" class="header bg-purple-900 flex flex-col md:flex-row md:justify-between items-center p-4 md:p-6" role="banner">
-
-	{% include "components/logo.njk" %}
-	{% include 'components/nav.njk' %}
-
+<header>
+	<div class="top-bar hidden md:block bg-uugray" role="banner">
+		<div class="inner flex justify-between py-2 px-4 text-xs text-white">
+			{% set addressParts = [site.address.street, site.address.street_2, site.address.city, site.address.state + ' ' + site.address.postcode] %}
+			<span>{{ addressParts | join(", ") }}</span>
+			<span>A Welcoming Congregation</span>
+			{% include "components/top-nav.njk" %}
+		</div>
+	</div>
+	<div class="bottom-bar inner flex justify-between items-center py-2 px-4" role="banner">
+		{% include "components/logo.njk" %}
+		{% include 'components/nav.njk' %}
+		<span class="md:hidden text-right leading-none text-base">A Welcoming Congregation</span>
+	</div>
 </header>
