@@ -5,7 +5,7 @@
   "scripts": {
     "11ty": "npx @11ty/eleventy --config=eleventy.config.js",
     "mix": "webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "dev": "cross-env ELEVENTY_ENV=development npm-run-all --parallel \"11ty -- --serve\" \"mix -- --watch\"",
+    "dev": "cross-env ELEVENTY_ENV=development DEBUG=babel:config:loading:files:configuration npm-run-all --parallel \"11ty -- --serve\" \"mix -- --watch\"",
     "production": "cross-env NODE_ENV=production npm-run-all --sequential mix 11ty"
   },
   "repository": {
