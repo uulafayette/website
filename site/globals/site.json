@@ -1,5 +1,6 @@
 {
     "name": "Unitarian Universalist Fellowship of Lafayette",
+    "nameHtml": "Unitarian&nbsp;Universalist Fellowship&nbsp;of&nbsp;Lafayette",
     "url": "https://uulala.org",
     "author": {
         "name": "Max Power",
@@ -22,6 +23,7 @@
     "address": {
         "street": "1119 Johnston Street",
         "street_2": "Suite 12",
+        "street_2_abv": "Ste. 12",
         "city": "Lafayette",
         "state": "LA",
         "postcode": "70501",
