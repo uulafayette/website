@@ -4,11 +4,15 @@
 
         <div class="footer-inner container m-auto flex flex-col md:flex-row md:justify-between items-center px-6 py-10">
             <div>
-                <div></div>
+                <ul class="flex items-center -mx-4">
+                    <li class="mx-4"><a href="#"><img class="h-32" src="https://placehold.it/200x200" /></a></li>
+                    <li class="mx-4"><a href="#"><img class="h-32" src="https://placehold.it/200x200" /></a></li>
+                    <li class="mx-4"><a href="#"><img class="h-32" src="https://placehold.it/200x200" /></a></li>
+                </ul>
                 <div class="hidden md:block text-xs mt-12">&copy; Copyright 2020 {{ site.nameHtml | safe }}</div>
             </div>            
             <div class="mt-8 md:mt-0 md:text-right text-sm md:text-base">
-                <p><strong>{{ site.nameHtml | safe }}</strong></p>
+                <div class="mb-6"><strong>{{ site.nameHtml | safe }}</strong></div>
                 <div class="leading-tight mb-6">
                     <div>{{ site.address.street }}, {{ site.address.street_2 }}</div>
                     <div>{{ site.address.city }}, {{ site.address.state }} {{ site.address.postcode }}</div>
